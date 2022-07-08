@@ -170,18 +170,18 @@ $(document).ready(function () {
 		if (priceSlider == null) return;
 
 		noUiSlider.create(priceSlider, {
-			start: [ 100, 10000 ],
+			start: [ 100, 50000 ],
 			connect: true,
 			step: 100,
 			margin: 1000,
 			range: {
 				'min': 1000,
-				'max': 10000
+				'max': 100000
 			},
 			tooltips: true,
 			format: wNumb({
 		        decimals: 0,
-		        prefix: '#'
+		        prefix: 'N'
 		    })
 		});
 
