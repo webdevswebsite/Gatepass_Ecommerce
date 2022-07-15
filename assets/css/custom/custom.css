@@ -1,42 +1,68 @@
-.customer_info_usage, li{
-   list-style-type: disc;
-   margin-left: 30px;
+.customer_info_usage,
+li {
+	list-style-type: disc;
+	margin-left: 30px;
 }
 
-p{
-    margin-top: 10px;
+p {
+	margin-top: 10px;
 }
 
-.refund_lists{
-    display: flex;
+.refund_lists {
+	display: flex;
 }
 
-.refund_lists_number{
-    padding-right: 10px;
+.refund_lists_number {
+	padding-right: 10px;
 }
 
-table, th, td {
-  border: 1px solid;
+table,
+th,
+td {
+	border: 1px solid;
 }
 
 table {
-  width: 50%;
+	width: 50%;
 }
 
 th {
-   padding: 15px;
-  text-align: left;
+	padding: 15px;
+	text-align: left;
 }
 
 td {
-  height: 50px;
-  vertical-align: bottom;
-   padding: 15px;
-  text-align: left;
+	height: 50px;
+	vertical-align: bottom;
+	padding: 15px;
+	text-align: left;
 }
 
 tr:hover {
-    background-color: rgb(255, 174, 144);
-    color: #fff;
+	background-color: rgb(255, 174, 144);
+	color: #fff;
 }
 
+a:link {
+	color: rgb(9, 117, 211);
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(0, 83, 200);
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+}
