@@ -24,7 +24,6 @@ function eventListeners() {
 // update cart info
 function updateCartInfo() {
 	let cartInfo = findCartInfo();
-	console.log(cartInfo);
 	cartCountInfo.textContent = cartInfo.productCount;
 	cartTotalValue.textContent = cartInfo.total;
 }
@@ -58,15 +57,7 @@ function loadJSON() {
 			});
 			productList.innerHTML = html;
 		})
-		.catch((error) => {
-			alert(`User live server or local server`);
-		});
 }
-
-// add alert to product added to cart
-// function addProductAlert(e) {
-//     onclick()
-// }
 
 // purchase product
 function purchaseProduct(e) {
@@ -143,7 +134,6 @@ function loadCart() {
 // calculate total price of the cart and other info
 function findCartInfo() {
 	let products = getProductFromStorage();
-	console.log(products);
 	let total = products.reduce((acc, product) => {
 		let price = parseFloat(product.price.substr(1));
 		return (acc += price);
@@ -154,7 +144,6 @@ function findCartInfo() {
 		productCount: products.length,
 	};
 }
-console.log(productCount);
 
 // delete product from cart list and local storage
 function deleteProduct(e) {
@@ -173,6 +162,4 @@ function deleteProduct(e) {
 	});
 	localStorage.setItem("products", JSON.stringify(updatedProducts));
 	updateCartInfo();
-	console.log(products);
-	console.log(updatedProducts);
 }
