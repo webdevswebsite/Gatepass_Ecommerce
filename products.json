@@ -1,10 +1,10 @@
 [
 	{
-		"name": "MacBook Pro 13 Display i5",
-		"category": "Laptops and computrers",
-		"price": "750000",
-		"ratings": "4 reviews",
-		"imgSrc": "product-list/MacBook Pro 13 Display i5.jpg"
+		"name": "furniture",
+		"category": "Butler Stool Ladder",
+		"price": "18500",
+		"ratings": "6 reviews",
+		"imgSrc": "product-list/butler stool ladder.jpg"
 	},
 
 	{
@@ -16,11 +16,11 @@
 	},
 
 	{
-		"name": "Google - Pixel 3 XL 128GB",
-		"category": "cellphone",
-		"price": "750000",
+		"name": "cloths",
+		"category": "Tan suede biker jacket",
+		"price": "23500",
 		"ratings": "4 reviews",
-		"imgSrc": "product-list/Google - Pixel 3 XL 128GB.jpg"
+		"imgSrc": "product-list/Tan suede biker jacket.jpg"
 	},
 
 	{
@@ -41,26 +41,10 @@
 
 	{
 		"name": "furniture",
-		"category": "Butler Stool Ladder",
-		"price": "18500",
-		"ratings": "6 reviews",
-		"imgSrc": "product-list/butler stool ladder.jpg"
-	},
-
-	{
-		"name": "furniture",
 		"category": "Can 2-Seater Sofa ",
 		"price": "18000",
 		"ratings": "6 reviews",
 		"imgSrc": "product-list/Can 2-Seater Sofa .jpg"
-	},
-
-	{
-		"name": "furniture",
-		"category": "Wingback Chair",
-		"price": "57500",
-		"ratings": "4 reviews",
-		"imgSrc": "product-list/Wingback Chair.jpg"
 	},
 
 	{
@@ -70,13 +54,12 @@
 		"ratings": "6 reviews",
 		"imgSrc": "product-list/Carronade Large Suspension Lamp.jpg"
 	},
-
 	{
-		"name": "furniture",
-		"category": "Block Side Table/Trolley",
-		"price": "65500",
-		"ratings": "12 reviews",
-		"imgSrc": "product-list/Block Side TableTrolley.jpg"
+		"name": "MacBook Pro 13 Display i5",
+		"category": "Laptops and computrers",
+		"price": "750000",
+		"ratings": "4 reviews",
+		"imgSrc": "product-list/MacBook Pro 13 Display i5.jpg"
 	},
 
 	{
@@ -96,7 +79,7 @@
 	},
 
 	{
-		"name": "cloths",
+		"name": "cloth",
 		"category": "Beige knitted elastic runner shoes",
 		"price": "74000",
 		"ratings": "12 reviews",
@@ -104,15 +87,22 @@
 	},
 
 	{
-		"name": "cloths",
+		"name": "cloth",
 		"category": "Black boucle check scarf",
 		"price": "4500",
 		"ratings": "10 reviews",
 		"imgSrc": "product-list/black boucle check scarf.jpg"
 	},
+	{
+		"name": "Google - Pixel 3 XL 128GB",
+		"category": "cellphone",
+		"price": "750000",
+		"ratings": "4 reviews",
+		"imgSrc": "product-list/Google - Pixel 3 XL 128GB.jpg"
+	},
 
 	{
-		"name": "cloths",
+		"name": "cloth",
 		"category": "Red stripe tie front shirt",
 		"price": "15300",
 		"ratings": "6 reviews",
@@ -120,19 +110,18 @@
 	},
 
 	{
-		"name": "cloths",
+		"name": "cloth",
 		"category": "Triple compartment cross body",
 		"price": "42000",
 		"ratings": "4 reviews",
 		"imgSrc": "product-list/triple compartment cross body.jpg"
 	},
-
 	{
-		"name": "cloths",
-		"category": "Tan suede biker jacket",
-		"price": "23500",
+		"name": "furniture",
+		"category": "Wingback Chair",
+		"price": "57500",
 		"ratings": "4 reviews",
-		"imgSrc": "product-list/Tan suede biker jacket.jpg"
+		"imgSrc": "product-list/Wingback Chair.jpg"
 	},
 
 	{
@@ -141,5 +130,12 @@
 		"price": "75500",
 		"ratings": "4 reviews",
 		"imgSrc": "product-list/Bose - SoundSport wireless headphones.jpg"
+	},
+	{
+		"name": "furniture",
+		"category": "Block Side Table/Trolley",
+		"price": "65500",
+		"ratings": "12 reviews",
+		"imgSrc": "product-list/Block Side TableTrolley.jpg"
 	}
 ]
