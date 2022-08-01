@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="assets/css/skins/skin-demo-13.css">
     <link rel="stylesheet" href="assets/css/demos/demo-13.css">
     <link rel="stylesheet" href="assets/css/styleII.css">
+    <link rel="stylesheet" href="assets/css/style.hotb.css">
 </head>
 
 <body>
@@ -121,114 +122,58 @@
 
                     <div class="header-right">
                         <div class="header-dropdown-link">
-                            <div class="dropdown compare-dropdown">
-                                <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false" data-display="static"
-                                    title="Compare Products" aria-label="Compare Products">
-                                    <i class="icon-random"></i>
-                                    <span class="compare-txt">Compare</span>
-                                </a>
-
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <ul class="compare-products">
-                                        <li class="compare-product">
-                                            <a href="#" class="btn-remove" title="Remove Product"><i
-                                                    class="icon-close"></i></a>
-                                            <h4 class="compare-product-title"><a href="product.html">Blue Night
-                                                    Dress</a></h4>
-                                        </li>
-                                        <li class="compare-product">
-                                            <a href="#" class="btn-remove" title="Remove Product"><i
-                                                    class="icon-close"></i></a>
-                                            <h4 class="compare-product-title"><a href="product.html">White Long
-                                                    Skirt</a></h4>
-                                        </li>
-                                    </ul>
-
-                                    <div class="compare-actions">
-                                        <a href="#" class="action-link">Clear All</a>
-                                        <a href="#" class="btn btn-outline-primary-2"><span>Compare</span><i
-                                                class="icon-long-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <a href="wishlist.html" class="wishlist-link">
-                                <i class="icon-heart-o"></i>
-                                <span class="wishlist-count">3</span>
-                                <span class="wishlist-txt">Wishlist</span>
-                            </a>
+                            <!-- <div class="same-style same-style-mrg-dec">
+                                <a class="cart-active" href="cart.html"><i class="fa fa-cart-arrow-down"></i></a>
+                                <span id="cart-count-info"></span>
+                            </div>                         -->
 
                             <div class="dropdown cart-dropdown">
-                                <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown"
+                                <div class="same-style same-style-mrg-dec">
+                                    <a class="cart-active" href="cart.html"><i class="icon-shopping-cart"></i></a>
+                                    <span id="cart-count-info"></span>
+                                </div>
+                                <!-- <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false" data-display="static">
                                     <i class="icon-shopping-cart"></i>
-                                    <span class="cart-count">2</span>
+                                    <span id="cart-count-info"></span>
+                                    <span class="cart-count cart-count-info"></span>
                                     <span class="cart-txt">Cart</span>
-                                </a>
+                                </a> -->
 
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <div class="dropdown-cart-products">
-                                        <div class="product">
-                                            <div class="product-cart-details">
-                                                <h4 class="product-title">
-                                                    <a href="product.html">Beige knitted elastic runner shoes</a>
-                                                </h4>
-
-                                                <span class="cart-product-info">
-                                                    <span class="cart-product-qty">1</span>
-                                                    x N5400
-                                                </span>
-                                            </div><!-- End .product-cart-details -->
-
-                                            <figure class="product-image-container">
-                                                <a href="product.html" class="product-image">
-                                                    <img src="assets/images/products/cart/product-1.jpg" alt="product">
-                                                </a>
-                                            </figure>
-                                            <a href="#" class="btn-remove" title="Remove Product"><i
-                                                    class="icon-close"></i></a>
-                                        </div><!-- End .product -->
-
-                                        <div class="product">
-                                            <div class="product-cart-details">
-                                                <h4 class="product-title">
-                                                    <a href="product.html">Blue utility pinafore denim dress</a>
-                                                </h4>
-
-                                                <span class="cart-product-info">
-                                                    <span class="cart-product-qty">1</span>
-                                                    x N7,600
-                                                </span>
-                                            </div><!-- End .product-cart-details -->
-
-                                            <figure class="product-image-container">
-                                                <a href="product.html" class="product-image">
-                                                    <img src="assets/images/products/cart/product-2.jpg" alt="product">
-                                                </a>
-                                            </figure>
-                                            <a href="#" class="btn-remove" title="Remove Product"><i
-                                                    class="icon-close"></i></a>
-                                        </div><!-- End .product -->
-                                    </div><!-- End .cart-product -->
-
-                                    <div class="dropdown-cart-total">
-                                        <span>Total</span>
-
-                                        <span class="cart-total-price">N11,500</span>
-                                    </div><!-- End .dropdown-cart-total -->
-
-                                    <div class="dropdown-cart-action">
-                                        <a href="cart.html" class="btn btn-primary">View Cart</a>
-                                        <a href="checkout.html"
-                                            class="btn btn-outline-primary-2"><span>Checkout</span><i
-                                                class="icon-long-arrow-right"></i></a>
-                                    </div><!-- End .dropdown-cart-total -->
-                                </div><!-- End .dropdown-menu -->
-                            </div><!-- End .cart-dropdown -->
+                                <div class="dropdown-menu dropdown-menu-right" style="margin-top:20px">
+                                    <div class="cart-content">                                    
+                                        <div class="cart-container">
+                                            <div class="cart-list">
+                                                <!-- single item -->
+                                                <!-- <div class = "cart-item">
+                                                                <img src = "images/armchair.png" alt = "product image">
+                                                                <div class = "cart-item-info">
+                                                                    <h3 class = "cart-item-name">Arm Chair</h3>
+                                                                    <span class = "cart-item-category">Chair</span>
+                                                                    <span class = "cart-item-price">$120.00</span>
+                                                                </div>
+                                    
+                                                                <button type = "button" class = "cart-item-del-btn">
+                                                                    <i class = "fas fa-times"></i>
+                                                                </button>
+                                                                </div> -->
+                                                <!-- end of single item  -->
+                                            </div>
+                                            
+                                            <div id="total-price" class="cart-total">
+                                                <p style="font-weight:300;">Total: ₦</p>
+                                                <p id="cart-total-value"></p>
+                                            </div>
+                                            <div id="cart-btn" class="cart-checkout-btn">
+                                                <a class="no-mrg btn-hover cart-btn-style" href="checkout.html">Checkout</a>
+                                            </div>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>
                         </div>
-                    </div><!-- End .header-right -->
-                </div><!-- End .container -->
+                    </div>
+                </div>
             </div>
 
             <!-- End .header-middle -->
@@ -260,7 +205,7 @@
                                         </span>
                                     </h1><!-- End .intro-title -->
 
-                                    <a href="category.html" class="btn btn-outline-primary-2">
+                                    <a href="index.html#shopNow" class="btn btn-outline-primary-2">
                                         <span>Shop Now</span>
                                         <i class="icon-long-arrow-right"></i>
                                     </a>
@@ -282,7 +227,7 @@
                                         </span>
                                     </h1><!-- End .intro-title -->
 
-                                    <a href="category.html" class="btn btn-outline-primary-2">
+                                    <a href="index.html#shopNow" class="btn btn-outline-primary-2">
                                         <span>Shop Now</span>
                                         <i class="icon-long-arrow-right"></i>
                                     </a>
@@ -304,7 +249,7 @@
                                         </span>
                                     </h1><!-- End .intro-title -->
 
-                                    <a href="category.html" class="btn btn-outline-primary-2">
+                                    <a href="index.html#shopNow" class="btn btn-outline-primary-2">
                                         <span>Shop Now</span>
                                         <i class="icon-long-arrow-right"></i>
                                     </a>
@@ -405,8 +350,8 @@
                 <div class="row">
                     <div class="col-sm-6 col-lg-3">
                         <div class="banner banner-overlay">
-                            <a href="#">
-                                <img src="assets/images/demos/demo-13/banners/banner-1.jpg" alt="Banner">
+                            <a href="index.html#shopNow" style="height: 250px;">
+                                <img style="width:auto" src="assets/images/demos/demo-13/banners/banner-1.jpg" alt="Banner">
                             </a>
 
                             <div class="banner-content">
@@ -414,15 +359,15 @@
                                 <!-- End .banner-subtitle -->
                                 <h3 class="banner-title text-white"><a href="#">Lighting <br>& Accessories <br><span>25%
                                             off</span></a></h3><!-- End .banner-title -->
-                                <a href="#" class="banner-link">Shop Now <i class="icon-long-arrow-right"></i></a>
+                                <a href="index.html#shopNow" class="banner-link">Shop Now <i class="icon-long-arrow-right"></i></a>
                             </div><!-- End .banner-content -->
                         </div><!-- End .banner -->
                     </div><!-- End .col-lg-3 -->
 
                     <div class="col-sm-6 col-lg-3 order-lg-last">
                         <div class="banner banner-overlay">
-                            <a href="#">
-                                <img src="assets/images/demos/demo-13/banners/banner-3.jpg" alt="Banner">
+                            <a href="index.html#shopNow" style="height: 250px;">
+                                <img style="width:auto" src="assets/images/demos/demo-13/banners/banner-3.jpg" alt="Banner">
                             </a>
 
                             <div class="banner-content">
@@ -430,23 +375,23 @@
                                 <!-- End .banner-subtitle -->
                                 <h3 class="banner-title text-white"><a href="#">Anniversary <br>Special <br><span>15%
                                             off</span></a></h3><!-- End .banner-title -->
-                                <a href="#" class="banner-link">Shop Now <i class="icon-long-arrow-right"></i></a>
+                                <a href="index.html#shopNow" class="banner-link">Shop Now <i class="icon-long-arrow-right"></i></a>
                             </div><!-- End .banner-content -->
                         </div><!-- End .banner -->
                     </div><!-- End .col-lg-3 -->
 
                     <div class="col-lg-6">
                         <div class="banner banner-overlay">
-                            <a href="#">
-                                <img src="assets/images/demos/demo-13/banners/banner-2.jpg" alt="Banner">
+                            <a href="index.html#shopNow" style="height: 250px;">
+                                <img style="width:auto" src="assets/images/demos/demo-13/banners/banner-2.jpg" alt="Banner">
                             </a>
 
                             <div class="banner-content">
-                                <h4 class="banner-subtitle text-white d-none d-sm-block"><a href="#">Amazing Value</a>
+                                <h4 class="banner-subtitle text-white d-none d-sm-block"><a href="index.html#shopNow"">Amazing Value</a>
                                 </h4><!-- End .banner-subtitle -->
-                                <h3 class="banner-title text-white"><a href="#">Clothes Trending <br>Spring Collection
-                                        2021<br><span>from N4.99</span>k</a></h3><!-- End .banner-title -->
-                                <a href="#" class="banner-link">Discover Now <i class="icon-long-arrow-right"></i></a>
+                                <h3 class="banner-title text-white"><a href="#">Clothes Trending <br>Spring Collections
+                                        <br><span>from N4.99</span>k</a></h3><!-- End .banner-title -->
+                                <a href="index.html#shopNow" class="banner-link">Discover Now <i class="icon-long-arrow-right"></i></a>
                             </div><!-- End .banner-content -->
                         </div><!-- End .banner -->
                     </div><!-- End .col-lg-6 -->
@@ -501,8 +446,8 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="banner banner-overlay banner-overlay-light">
-                            <a href="#">
-                                <img src="assets/images/demos/demo-13/banners/banner-4.jpg" alt="Banner">
+                            <a href="index.html#shopNow">
+                                <img style="width: auto;" src="assets/images/demos/demo-13/banners/banner-4.jpg" alt="Banner">
                             </a>
 
                             <div class="banner-content">
@@ -518,8 +463,8 @@
 
                     <div class="col-lg-6">
                         <div class="banner banner-overlay">
-                            <a href="#">
-                                <img src="assets/images/demos/demo-13/banners/banner-5.png" alt="Banner">
+                            <a href="index.html#shopNow">
+                                <img style="width: auto;" src="assets/images/demos/demo-13/banners/banner-5.png" alt="Banner">
                             </a>
 
                             <div class="banner-content">
